@@ -43,7 +43,7 @@ git merge --squash HEAD@{1}
 - [ ] Delete the push-notification branch and it will be committed to the master branch automatically
 - [x] Checkout the beta branch and run git merge push-notification
 
-#### Q5. <span style="color:red">Which of the following is true you when you use the following command?</span>
+#### Q5. *Which of the following is true you when you use the following command?*
 
 `git add -A`
 
@@ -61,7 +61,7 @@ git merge --squash HEAD@{1}
 - [ ] An inline editor for modifying remote repositories
 - [ ] The last 5 git versions you've installed
 
-#### Q7. Looking at the following commands, describe what is happening.
+#### Q7. *Looking at the following commands, describe what is happening.*
 
 ```git
 git checkout feature-user-location
@@ -89,7 +89,7 @@ git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}
 - [ ] Run a git rebase to find the buggy commit.
 - [x] Use git bisect to compare the buggy commit to an early commit that works as expected.
 
-#### Q10. Why would the following command be used?
+#### Q10. *Why would the following command be used?*
 
 #### Q10a. Why would you use this command?
 
@@ -114,7 +114,7 @@ git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}
 - [x] `--global`
 - [ ] `--update`
 
-#### Q13. How could you squash multiple commits together without using git merge --squash?
+#### Q13. *How could you squash multiple commits together without using git merge --squash?*
 
 - [ ] Caching
 - [ ] You can't. git merge --squash is the only git command for that operation.
@@ -128,7 +128,7 @@ git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}
 - [ ] Nothing, cloning is not a supported git function
 - [ ] A copy of the repository would be created on the hosting platform
 
-#### Q15. Suppose you needed to see a list of all files that had been modified or added to a specific commit over the course of a project. How would you accomplish this?
+#### Q15. *Suppose you needed to see a list of all files that had been modified or added to a specific commit over the course of a project. How would you accomplish this?*
 
 - [ ] Find the commit in the remote repository, as that's the only place that kind of information is stored.
 - [x] Use the diff-tree command with the commit hash.
@@ -168,7 +168,7 @@ A line starting with `#` serves as a comment. Hence `# .swift` does not do anyth
 - [ ] Commits all new files with a message
 - [x] Adds all modified files to the staging area, then commits them with a message
 
-#### Q18. After checking your git status you get the following output, which shows the file beta-notes.js in the commit but also unstaged. How can this situation occur?
+#### Q18. *After checking your git status you get the following output, which shows the file beta-notes.js in the commit but also unstaged. How can this situation occur?*
 
 ```shell
 Change to be committed:
@@ -187,14 +187,14 @@ modified: beta-notes.js
 - [ ] Two copies of beta-notes.js were created, but only one is being tracked
 - [ ] There are two tracked copies of beta-notes.js, but one was removed from the commit
 
-#### Q19. Where are files stored before they are committed to the local repository?
+#### Q19. *Where are files stored before they are committed to the local repository?*
 
 - [ ] Saved files
 - [ ] git documents
 - [x] Staging area
 - [ ] git cache
 
-#### Q20. What commands would you use to force an overwrite of your local files with the master branch?
+#### Q20. *What commands would you use to force an overwrite of your local files with the master branch?*
 
 - [ ] Option 1:
 
