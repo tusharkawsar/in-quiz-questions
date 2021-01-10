@@ -43,7 +43,7 @@ git merge --squash HEAD@{1}
 - [ ] Delete the push-notification branch and it will be committed to the master branch automatically
 - [x] Checkout the beta branch and run git merge push-notification
 
-#### Q5. Which of the following is true you when you use the following command?
+#### Q5. <span style="color:red">Which of the following is true you when you use the following command?</span>
 
 `git add -A`
 
